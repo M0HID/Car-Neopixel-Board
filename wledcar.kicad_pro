@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -177,7 +183,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -204,7 +212,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -471,10 +484,17 @@
         "wire_width": 6
       },
       {
+        "name": "Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4
+      },
+      {
         "clearance": 0.25,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.6,
         "via_diameter": 1.2,
@@ -483,7 +503,7 @@
       {
         "name": "PWRthin",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.8,
@@ -519,6 +539,42 @@
       {
         "netclass": "PWRthin",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "MCU*"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LED1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LED2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LED3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LED4"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*1Y*"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*2Y*"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*3Y*"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*4Y*"
       }
     ]
   },
