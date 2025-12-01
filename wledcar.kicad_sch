@@ -1357,7 +1357,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1369,7 +1369,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -2629,7 +2629,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -2641,19 +2641,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -2666,6 +2654,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -5744,7 +5744,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 156.21 97.79 180)
+		(at 156.21 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5754,7 +5754,7 @@
 		)
 		(uuid "99e1da5d-d9fc-4589-b4f0-d87a43bb144c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.1448 97.79 0)
+			(at 148.1448 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9563,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 100.33 270)
+		(at 156.21 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9571,7 +9571,7 @@
 		(dnp no)
 		(uuid "d01de0aa-a55a-46db-bf48-0f6e8f06c878")
 		(property "Reference" "#PWR016"
-			(at 149.86 100.33 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 100.3301 90)
+			(at 152.4 97.7901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 100.33 0)
+			(at 156.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 100.33 0)
+			(at 156.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 100.33 0)
+			(at 156.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
