@@ -5476,6 +5476,28 @@
 			)
 		)
 	)
+	(global_label "SW"
+		(shape input)
+		(at 177.8 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a71cb49-a560-4255-a9eb-6c932b1776c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 57.8539 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED5V"
 		(shape input)
 		(at 153.67 125.73 0)

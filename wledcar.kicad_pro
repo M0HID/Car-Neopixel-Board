@@ -529,7 +529,7 @@
         "pattern": "c5V"
       },
       {
-        "netclass": "PWRthin",
+        "netclass": "PWR",
         "pattern": "LED5V"
       },
       {
