@@ -21,7 +21,9 @@ Check out the PCB on [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithu
 | Description | Image |
 |------------|--------|
 | PCB Front | <img width="795" height="773" alt="image" src="https://github.com/user-attachments/assets/370227ed-6131-466c-a66a-65344d7af5b4" /> |
+||<img width="602" height="721" alt="image" src="https://github.com/user-attachments/assets/5b7ff3c5-9552-4e81-89f3-43bf6f149d87" />|
 | PCB Back | <img width="802" height="898" alt="image" src="https://github.com/user-attachments/assets/9b7a1c26-a375-465a-8d3d-00f749c4f913" /> |
+||<img width="616" height="744" alt="image" src="https://github.com/user-attachments/assets/0918257f-3df5-40fe-bede-0a98849e5db3" />
 | Board full | <img width="1052" height="798" alt="image" src="https://github.com/user-attachments/assets/657ddeaa-f386-4a39-80a7-04cb840e9109" /> |
 
 
